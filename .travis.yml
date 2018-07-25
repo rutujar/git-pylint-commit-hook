@@ -9,8 +9,4 @@ env:
 install:
   - pip install pylint tox
 
-before_script:
-  - git config --global user.email "you@example.com"
-  - git config --global user.name "Your Name"
-
 script: tox
